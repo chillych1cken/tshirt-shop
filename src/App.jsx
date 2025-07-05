@@ -4,11 +4,15 @@ import Cart from "./components/Cart";
 import design1 from './assets/shirts/design1.png';
 import design2 from './assets/shirts/design2.png';
 import design3 from './assets/shirts/design3.png';
+import design4 from './assets/shirts/design4.png';
+import design5 from './assets/shirts/design5.png'
 
 const products = [
   { id: 1, name: "Alpenjodsalz", price: 20, image: design1 },
   { id: 2, name: "Doch.", price: 25, image: design2 },
   { id: 3, name: "chillych1cken", price: 22, image: design3 },
+  { id: 2, name: "Bitte Please.", price: 25, image: design4 },
+  { id: 3, name: "jaja", price: 22, image: design5 },
 ];
 
 function App() {
